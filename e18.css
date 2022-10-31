@@ -5,7 +5,7 @@
 }
 
 .navigation a {
-    height: 300%;
+    height: 1000%;
     display: table;
     float: left;
     padding: 0px 20px;
@@ -24,3 +24,27 @@
     color: #101010;
 }
 
+.header {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border: 1px solid #010a13;
+    background-color: black;
+}
+
+.logo-container {
+    text-line-through-color: white;
+
+}
+
+.inner-header {
+
+}
+
+.content {
+
+}
