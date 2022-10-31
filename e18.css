@@ -1,7 +1,6 @@
 .navigation {
-    float: contour;
-    height: 800%;
-
+    float: right;
+    height: 100%;
 }
 
 .navigation a {
@@ -24,27 +23,107 @@
     color: #101010;
 }
 
+/*.header {*/
+/*    position: relative;*/
+/*    display: flex;*/
+/*    flex-wrap: wrap;*/
+/*    align-items: center;*/
+/*    justify-content: space-between;*/
+/*    padding-top: 0.5rem;*/
+/*    padding-bottom: 0.5rem;*/
+/*    border: 1px solid #010a13;*/
+/*    background-color: black;*/
+/*    min-height: 4em;*/
+/*    vertical-align: middle*/
+/*}*/
+
 .header {
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    border: 1px solid #010a13;
-    background-color: black;
+    padding: 10px;
+    text-align: left;
+    background: #1a1717;
+    color: white;
+    font-size: 20px;
 }
 
 .logo-container {
-    text-line-through-color: white;
-
+    color: white;
+    padding: 0px 0px 0px 100px;
 }
 
 .inner-header {
+    vertical-align: 20px;
 
 }
 
 .content {
 
 }
+
+
+/*.navbar {*/
+/*    position: relative;*/
+/*    display: flex;*/
+/*    flex-wrap: wrap;*/
+/*    align-items: center;*/
+/*    justify-content: space-between;*/
+/*    padding-top: 0.5rem;*/
+/*    padding-bottom: 0.5rem;*/
+/*}*/
+
+/*.navbar-expand-lg {*/
+/*    height: auto;*/
+/*    border-top: 0;*/
+/*    border-bottom: 0;*/
+/*}*/
+
+/*!*.navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {*!*/
+/*!*    color: #fff;*!*/
+/*!*}*!*/
+
+/*.navbar-dark .navbar-brand:hover,.navbar-dark {*/
+/*    color: #fff;*/
+/*}*/
+
+/*.bg-dark {*/
+/*    --bs-bg-opacity: 1;*/
+/*    background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;*/
+/*}*/
+
+/*.container {*/
+/*    width: 100%;*/
+/*    padding-right: var(--bs-gutter-x, 0.75rem);*/
+/*    padding-left: var(--bs-gutter-x, 0.75rem);*/
+/*    margin-right: auto;*/
+/*    margin-left: auto;*/
+/*}*/
+
+/*.collapse:not(.show) {*/
+/*    display: none;*/
+/*}*/
+
+/*.navbar-collapse {*/
+/*    flex-basis: 100%;*/
+/*    flex-grow: 1;*/
+/*    align-items: center;*/
+/*}*/
+
+/*.navbar-nav {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    padding-left: 0;*/
+/*    margin-bottom: 0;*/
+/*    list-style: none;*/
+/*}*/
+
+/*.ms-auto {*/
+/*    margin-left: auto !important;*/
+/*}*/
+
+/*.mb-2 {*/
+/*    margin-bottom: 0.5rem !important;*/
+/*}*/
+
+/*.mb-lg-0 {*/
+/*    margin-bottom: 0 !important;*/
+/*}*/
+
