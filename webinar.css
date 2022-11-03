@@ -7,5 +7,61 @@
 }
 
 .header {
-    
+    box-sizing: border-box;
+    position: relative;
+    width: 1440px;
+    height: 84px;
+    background: #0B0A0A;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+}
+
+.logo-container {
+    position: absolute;
+    width: 168px;
+    height: 0px;
+    left: 298px;
+    top: 44px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 0px;
+    /* identical to box height, or 0% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.menu-container {
+    box-sizing: border-box;
+
+    position: relative;
+    width: 622px;
+    height: 84px;
+    left: 818px;
+    top: 0px;
+
+    background: #0B0A0A;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+}
+
+.navigation {
+    float: right;
+    height: 100%;
+}
+
+.menu-item {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 0px;
+    /* or 0% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
 }
